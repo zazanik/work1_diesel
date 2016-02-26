@@ -1,0 +1,70 @@
+.favorite-truck-list{
+  .side-bar{
+    margin: 30px 25px 0 0 ;
+  }
+  .long-line:last-child{
+    margin: 20px 0 30px 0;
+    height: 1px;
+    background-color: rgb(61, 55, 57);
+  }
+  .favorite-truck-list-cont{
+    float: left;
+    width: 760px;
+    .long-line{
+      margin-left: 15px;
+      background-color: #dadada;
+      height: 2px;
+    }
+  }
+  .favorite-truck-list-cont:last-child{
+    .long-line{
+      background-color: transparent;
+    }
+  }
+
+  .favorite-truck-list-cont .favorite-truck-post{
+    margin: 30px 0 25px 15px;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    h2{
+      margin-bottom: 15px;
+    }
+    h2 a{
+      color: $mainTextColor;
+      font-family: $mainFont;
+      margin: 0 0 0 30px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .title-of-news{
+      text-transform: uppercase;
+    }
+    h2 a:hover{
+      color: rgb(179, 32, 23);
+    }
+    .date{
+      margin: 0 0 30px 230px;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+    .model, .year, .text{
+      margin: 0 0 12px 230px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+    .text{
+      margin-bottom: 0;
+      text-align: justify;
+    }
+  }
+  .favorite-truck-list-cont .favorite-truck-post > a > img{
+    float: left;
+    width: 200px;
+    height: 150px;
+  }
+
+}

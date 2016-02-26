@@ -1,0 +1,214 @@
+
+
+.modal_form {
+  width: 380px;
+  height: 270px;
+  border: 1px solid rgb(112, 112, 112);
+  background: black;
+  position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+  top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+  left: 50%; /* пoлoвинa экрaнa слевa */
+  margin-top: -150px;
+  margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+  display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+  opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+  z-index: 9999999999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+  padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_form .modal_close {
+  width: 15px;
+  height: 15px;
+  background: url("../../images/cross.png");
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+.modal_form .modal_close:hover{
+  background: url("../../images/cross-hover.png");
+}
+/* Пoдлoжкa */
+.overlay {
+  z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position:fixed; /* всегдa перекрывaет весь сaйт */
+  background-color:#000; /* чернaя */
+  opacity:0.8; /* нo немнoгo прoзрaчнa */
+  -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+  filter:alpha(opacity=80);
+  width:100%;
+  height:100%; /* рaзмерoм вo весь экрaн */
+  top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  left:0;
+  cursor:pointer;
+  display:none; /* в oбычнoм сoстoянии её нет) */
+}
+
+.overlay{
+  opacity: 0.36;
+}
+//our styles
+
+//!!!!!!!!!!!!!!!!SHAMEME
+.modal_form2 {
+  width: 380px;
+  height: 155px;
+  border: 1px solid rgb(112, 112, 112);
+  background: black;
+  position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+  top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+  left: 50%; /* пoлoвинa экрaнa слевa */
+  margin-top: -150px;
+  margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+  display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+  opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+  z-index: 9999999999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+  padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_form2 .modal_close2 {
+  width: 15px;
+  height: 15px;
+  background: url("../../images/cross.png");
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+  display: block;
+}
+.modal_form2 .modal_close2:hover{
+  background: url("../../images/cross-hover.png");
+}
+/* Пoдлoжкa */
+.overlay2 {
+  z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position:fixed; /* всегдa перекрывaет весь сaйт */
+  background-color:#000; /* чернaя */
+  opacity:0.8; /* нo немнoгo прoзрaчнa */
+  -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+  filter:alpha(opacity=80);
+  width:100%;
+  height:100%; /* рaзмерoм вo весь экрaн */
+  top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  left:0;
+  cursor:pointer;
+  display:none; /* в oбычнoм сoстoянии её нет) */
+}
+
+.overlay2{
+  opacity: 0.36;
+}
+
+
+.modal-window-sign-in {
+  h3 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: rgb(179, 32, 23);
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+  }
+  .line{
+    margin: 0 auto 30px auto;
+    width: 180px;
+  }
+  form input{
+    margin: 0  0 10px 10px;
+    padding-left: 15px;
+    width: 343px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: transparent;
+    color: rgb(132, 132, 132);
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  form a{
+    color: rgb(132, 132, 132);
+    font-family: $mainFont;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    text-decoration: underline;
+  }
+  form a:hover{
+    color: rgb(179, 32, 23);
+  }
+  .sign-up{
+    margin: 10px 0 0 10px;
+    float: left;
+  }
+  .forgot-password{
+    margin: 10px 10px 0 0;
+    float: right;
+  }
+  form input:last-child{
+    padding: 0;
+    margin: 20px 10px 0 0;
+    float: right;
+    width: 101px;
+    height: 28px;
+    border: none;
+    background-color: rgb(179, 32, 23);
+    color: white;
+    font-family: $mainFont;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+.modal-window-forgot-password{
+  h3 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    color: rgb(179, 32, 23);
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+  }
+  .line{
+    margin: 0 auto 30px auto;
+    width: 180px;
+  }
+  form input{
+    margin: 0  0 10px 10px;
+    padding-left: 15px;
+    width: 343px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: transparent;
+    color: rgb(132, 132, 132);
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  form input:last-child{
+    padding: 0;
+    margin: 20px 10px 0 0;
+    float: right;
+    width: 101px;
+    height: 28px;
+    border: none;
+    background-color: rgb(179, 32, 23);
+    color: white;
+    font-family: $mainFont;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

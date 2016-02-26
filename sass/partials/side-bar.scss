@@ -1,0 +1,47 @@
+.side-bar{
+  float: right;
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  ul li a{
+    margin: 0 0 10px 0;
+    display: block;
+    width: 170px;
+    height: 36px;
+    border: 1px solid white;
+
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  ul li > a{
+    cursor: pointer;
+  }
+  ul li a:hover{
+    background-color: rgb(89, 89, 89);
+    color: black;
+    font-weight: 600;
+  }
+  ul li:first-child{
+    position: relative;
+  }
+  .arrow-down{
+    background: url("../../images/diesel_club_static_page/arrow.png") no-repeat;
+    width: 11px;
+    height: 8px;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+
+  ul > li > ul{
+    display: none;
+  }
+  ul li ul li{
+    margin-bottom: 30px;
+  }
+}

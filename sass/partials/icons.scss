@@ -1,0 +1,46 @@
+.icons{
+  margin: 20px 0 0 0;
+  a{
+    font-family: $mainFont;
+  }
+  a:nth-child(1){
+    float: left;
+  }
+  a:nth-child(2){
+    float: left;
+    margin: 2px 15px 0 15px;
+    color: rgb(218, 219, 221);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  p{
+    float: left;
+    margin: 2px 15px 0 0;
+    font-family: $mainFont;
+    color: rgb(179, 32, 23);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  a:nth-child(4){
+    float: right;
+    position: relative;
+    margin: 2px 30px 0 0;
+    color: $mainTextColor;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  a:nth-child(4):after{
+    content: "";
+    position: absolute;
+    background: url("../images/right-arrow.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    right: -30px;
+  }
+  a:hover{
+    color: rgb(179, 32, 23);
+  }
+
+}

@@ -1,0 +1,55 @@
+.favorites-cont{
+  margin: 60px 0 0 0;
+  a:nth-child(1){
+    margin: 0 0 0 45px;
+    float: left;
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+  }
+  a:nth-child(1)::after{
+    content: "";
+    background: url("../images/star.png") no-repeat;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    right: -25px;
+  }
+  a:nth-child(2){
+    margin: 0 45px 0 0px;
+    float: right;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+  }
+  a:nth-child(2)::after{
+    content: "";
+    background: url("../images/dog.png") no-repeat;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    right: -25px;
+  }
+  a:nth-child(2):hover{
+    color: $mainColor;
+  }
+}
+.all-news-profile a{
+  margin: 60px 0 30px 0;
+  display: inline-block;
+  color: $mainTextColor;
+  font-family: $mainFont;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.all-news-profile a:hover{
+  color: $mainColor;
+}

@@ -1,0 +1,19 @@
+.button{
+  display: block;
+  width: 81px;
+  height: 24px;
+  background-color: rgb(179, 32, 23);
+  border: 1px solid rgb(179, 32, 23);
+
+  text-align: center;
+  color: white;
+  font-family: $mainFont;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button:hover{
+  color: white;
+  opacity: 0.8;
+}

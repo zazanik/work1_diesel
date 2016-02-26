@@ -1,0 +1,36 @@
+//*{
+//  box-sizing: border-box;
+//}
+.wrapper{
+  min-height: calc(100vh - 155px);
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+//clearfix
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after{
+  content: '';
+  display: table;
+}
+.container::after,
+.clearfix::after{
+  clear: both;
+}
+.container{
+  width: 980px;
+  margin: 0 auto;
+}
+
+a:hover,a:visited,a:link{
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+body{
+  background-color: #231f20;
+}

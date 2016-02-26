@@ -1,0 +1,88 @@
+.page-after-sign{
+  margin: 40px 0 0 0;
+
+  .side-bar{
+    margin: 0 30px 0 0;
+  }
+
+  .user-photo{
+    margin-left: 15px;
+    float: left;
+  }
+  .user-photo a{
+    display: block;
+    border-radius: 50%;
+  }
+  .user-photo img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+  }
+  .user-nickname{
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+  }
+
+
+  .user-info{
+    float: left;
+    text-align: center;
+
+
+    .button{
+      margin: 60px auto 0 auto;
+      width: 130px;
+      height: 40px;
+      background-color: rgb(89, 89, 89);
+      color: black;
+      border: none;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+    .button:hover{
+      opacity: 1;
+      background-color: $mainColor;
+      color: $mainTextColor;
+    }
+
+    .user-info-cont {
+      a{
+        margin-right: 20px;
+        float: left;
+        width: 130px;
+        height: 120px;
+        border: 1px solid $mainTextColor;
+      }
+      a:hover{
+        background-color: $mainColor;
+      }
+      a:nth-child(1) {
+        margin-left: 30px;
+      }
+      a:nth-child(1) img {
+        margin-bottom: 10px;
+      }
+      a:nth-child(2) {
+        width: 160px;
+      }
+      img {
+        margin: 20px 0 5px 0;
+      }
+      .text {
+        color: $mainTextColor;
+        font-family: $mainFont;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
