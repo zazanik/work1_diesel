@@ -1,6 +1,7 @@
-.user-photo{
+
+.user-photo {
   text-align: center;
-  h2{
+  h2 {
     margin: 0 0 15px 0;
     color: $mainTextColor;
     font-family: $mainFont;
@@ -8,7 +9,7 @@
     font-weight: 400;
     text-transform: uppercase;
   }
-  .user-nickname{
+  .user-nickname {
     margin: 20px 0 15px 0;
     color: $mainTextColor;
     font-family: $mainFont;
@@ -16,13 +17,13 @@
     font-weight: 400;
     line-height: 15px;
   }
-  .line{
+  .line {
     border: none;
     width: 150px;
     height: 1px;
     background-color: whitesmoke;
   }
-  h3{
+  h3 {
     margin: 25px 0 20px 0;
     color: $mainTextColor;
     font-family: $mainFont;
@@ -30,19 +31,18 @@
     font-weight: 400;
     text-transform: uppercase;
   }
-  .logo-group{
-
-  }
-  .logo-group a img{
+  .logo-group a img {
     width: 170px;
     height: 170px;
+    border-radius: 0;
   }
 }
-.autor-of-group-info{
+
+.autor-of-group-info {
   float: left;
   margin: 0 60px 0 50px;
   width: 420px;
-  .button{
+  .button {
     border: none;
     color: black;
     font-family: $mainFont;
@@ -51,11 +51,6 @@
     line-height: 14px;
     text-transform: uppercase;
     line-height: 35px;
-  }
-  .button:hover{
-    opacity: 1;
-    color: $mainTextColor;
-    background-color: rgb(179, 32, 23);
   }
   .button-cont {
     float: right;
@@ -72,8 +67,16 @@
       height: 35px;
       background-color: rgb(89, 89, 89);
     }
+    a:hover {
+      opacity: 1;
+      color: $mainTextColor;
+      background-color: rgb(179, 32, 23);
+    }
   }
-  .text{
+  .favorite-group-button a:last-child{
+    width: 190px;
+  }
+  .text {
     margin: 70px 0 0 0;
     text-align: justify;
     color: $mainTextColor;
@@ -81,5 +84,45 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 18px;
+  }
+  .text h2{
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .text a{
+    margin: 10px 30px 0 0;
+    float: right;
+    position: relative;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  .text a:hover{
+    color: rgb(179, 32, 23);
+  }
+  .text a:after{
+    content: "";
+    position: absolute;
+    background: url("../images/right-arrow.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    right: -30px;
+  }
+  .text p {
+    margin: 0;
+  }
+}
+.page-of-group {
+  .favorite-truck-list-cont .favorite-truck-post .date {
+    margin-left: 30px;
+  }
+  .favorite-group-button{
+    width: 190px;
   }
 }

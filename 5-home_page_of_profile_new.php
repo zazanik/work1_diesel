@@ -41,8 +41,10 @@
         <div class="favorite-truck-list-cont clearfix">
             <div class="favorite-truck-post">
                 <a href="#"><img src="images/favorite_truck_list/truck-fv.png" alt=""/></a>
-                <h2 class="title-of-news"><a href="#">Title of news</a></h2>
-                <div class="date">12/25/2015</div>
+                <div class="title-cont clearfix">
+                    <h2 class="title-of-news"><a href="#">Title of news</a></h2>
+                    <div class="date">12/25/2015</div>
+                </div>
                 <div class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati.  To take a trivial example, which
@@ -62,8 +64,10 @@
         <div class="favorite-truck-list-cont clearfix">
             <div class="favorite-truck-post">
                 <a href="#"><img src="images/favorite_truck_list/truck-fv.png" alt=""/></a>
-                <h2 class="title-of-news"><a href="#">Title of news</a></h2>
-                <div class="date">12/25/2015</div>
+                <div class="title-cont clearfix">
+                    <h2 class="title-of-news"><a href="#">Title of news</a></h2>
+                    <div class="date">12/25/2015</div>
+                </div>
                 <div class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati.  To take a trivial example, which
@@ -83,8 +87,10 @@
         <div class="favorite-truck-list-cont clearfix">
             <div class="favorite-truck-post">
                 <a href="#"><img src="images/favorite_truck_list/truck-fv.png" alt=""/></a>
-                <h2 class="title-of-news"><a href="#">Title of news</a></h2>
-                <div class="date">12/25/2015</div>
+                <div class="title-cont clearfix">
+                    <h2 class="title-of-news"><a href="#">Title of news</a></h2>
+                    <div class="date">12/25/2015</div>
+                </div>
                 <div class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati.  To take a trivial example, which
@@ -104,8 +110,10 @@
         <div class="favorite-truck-list-cont clearfix">
             <div class="favorite-truck-post">
                 <a href="#"><img src="images/favorite_truck_list/truck-fv.png" alt=""/></a>
-                <h2 class="title-of-news"><a href="#">Title of news</a></h2>
-                <div class="date">12/25/2015</div>
+                <div class="title-cont clearfix">
+                    <h2 class="title-of-news"><a href="#">Title of news</a></h2>
+                    <div class="date">12/25/2015</div>
+                </div>
                 <div class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati.  To take a trivial example, which

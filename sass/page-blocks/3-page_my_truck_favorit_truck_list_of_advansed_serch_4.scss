@@ -27,23 +27,26 @@
     color: $mainTextColor;
     font-family: $mainFont;
     h2{
-      margin-bottom: 15px;
+      margin: 0 0 15px 0;
     }
     h2 a{
+      margin: 0 0 0 30px;
       color: $mainTextColor;
       font-family: $mainFont;
-      margin: 0 0 0 30px;
       font-size: 18px;
       font-weight: 400;
     }
     .title-of-news{
       text-transform: uppercase;
     }
+    .title-cont{
+      float: left;
+    }
     h2 a:hover{
       color: rgb(179, 32, 23);
     }
     .date{
-      margin: 0 0 30px 230px;
+      margin: 0 0 0 30px;
       color: $mainTextColor;
       font-family: $mainFont;
       font-size: 14px;
@@ -51,20 +54,43 @@
       line-height: 18px;
     }
     .model, .year, .text{
-      margin: 0 0 12px 230px;
+      margin: 0 0 12px 30px;
       font-size: 14px;
       font-weight: 400;
       line-height: 16px;
     }
     .text{
+      padding: 90px 0 0 200px;
       margin-bottom: 0;
       text-align: justify;
+    }
+    .text-padding{
+      padding-top: 100px;
     }
   }
   .favorite-truck-list-cont .favorite-truck-post > a > img{
     float: left;
     width: 200px;
     height: 150px;
+  }
+  .button-cont{
+    float: right;
+  }
+  .button{
+    margin: 10px 0 0 40px;
+    border: none;
+    float: left;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(89, 89, 89);
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .button:hover{
+    background-color: rgb(179, 32, 23);
+    color: $mainTextColor;
   }
 
 }

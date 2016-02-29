@@ -383,6 +383,7 @@ body {
     cursor: pointer; }
   .side-bar ul li a:hover {
     background-color: #595959;
+    border-color: #595959;
     color: black;
     font-weight: 600; }
   .side-bar ul li:first-child {
@@ -1062,40 +1063,64 @@ body {
   color: white;
   font-family: "Lato", sans-serif; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post h2 {
-    margin-bottom: 15px; }
+    margin: 0 0 15px 0; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post h2 a {
+    margin: 0 0 0 30px;
     color: white;
     font-family: "Lato", sans-serif;
-    margin: 0 0 0 30px;
     font-size: 18px;
     font-weight: 400; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .title-of-news {
     text-transform: uppercase; }
+  .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .title-cont {
+    float: left; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post h2 a:hover {
     color: #b32017; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .date {
-    margin: 0 0 30px 230px;
+    margin: 0 0 0 30px;
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .model, .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .year, .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .text {
-    margin: 0 0 12px 230px;
+    margin: 0 0 12px 30px;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .text {
+    padding: 90px 0 0 200px;
     margin-bottom: 0;
     text-align: justify; }
+  .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post .text-padding {
+    padding-top: 100px; }
 
 .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post > a > img {
   float: left;
   width: 200px;
   height: 150px; }
 
+.favorite-truck-list .button-cont {
+  float: right; }
+
+.favorite-truck-list .button {
+  margin: 10px 0 0 40px;
+  border: none;
+  float: left;
+  width: 70px;
+  height: 30px;
+  background-color: #595959;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.favorite-truck-list .button:hover {
+  background-color: #b32017;
+  color: white; }
+
 .page-after-sign {
-  margin: 40px 0 0 0; }
+  margin: 40px 0 90px 0; }
   .page-after-sign .side-bar {
     margin: 0 30px 0 0; }
   .page-after-sign .user-photo {
@@ -1238,7 +1263,8 @@ body {
     text-transform: uppercase; }
   .user-photo .logo-group a img {
     width: 170px;
-    height: 170px; }
+    height: 170px;
+    border-radius: 0; }
 
 .autor-of-group-info {
   float: left;
@@ -1253,10 +1279,6 @@ body {
     line-height: 14px;
     text-transform: uppercase;
     line-height: 35px; }
-  .autor-of-group-info .button:hover {
-    opacity: 1;
-    color: white;
-    background-color: #b32017; }
   .autor-of-group-info .button-cont {
     float: right; }
     .autor-of-group-info .button-cont a:first-child {
@@ -1270,6 +1292,12 @@ body {
       width: 160px;
       height: 35px;
       background-color: #595959; }
+    .autor-of-group-info .button-cont a:hover {
+      opacity: 1;
+      color: white;
+      background-color: #b32017; }
+  .autor-of-group-info .favorite-group-button a:last-child {
+    width: 190px; }
   .autor-of-group-info .text {
     margin: 70px 0 0 0;
     text-align: justify;
@@ -1278,6 +1306,39 @@ body {
     font-size: 13px;
     font-weight: 400;
     line-height: 18px; }
+  .autor-of-group-info .text h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .autor-of-group-info .text a {
+    margin: 10px 30px 0 0;
+    float: right;
+    position: relative;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline; }
+  .autor-of-group-info .text a:hover {
+    color: #b32017; }
+  .autor-of-group-info .text a:after {
+    content: "";
+    position: absolute;
+    background: url("../images/right-arrow.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    right: -30px; }
+  .autor-of-group-info .text p {
+    margin: 0; }
+
+.page-of-group .favorite-truck-list-cont .favorite-truck-post .date {
+  margin-left: 30px; }
+
+.page-of-group .favorite-group-button {
+  width: 190px; }
 
 footer .sosials {
   margin: 0 0 35px 0;
