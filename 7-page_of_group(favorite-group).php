@@ -99,10 +99,10 @@
                     example, which
                     of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
                     <div class="icons clearfix">
-                        <a href="#"><img src="images/icon_hands.png" alt=""></a>
-                        <a href="#">Respects</a>
+                        <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
+                        <a class="respect" href="#">Respects</a>
                         <p>12</p>
-                        <a href="#">See more</a>
+                        <a class="see-more" href="#">See more</a>
                     </div>
                 </div>
             </div>
@@ -124,10 +124,10 @@
                     example, which
                     of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
                     <div class="icons clearfix">
-                        <a href="#"><img src="images/icon_hands.png" alt=""></a>
-                        <a href="#">Respects</a>
+                        <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
+                        <a class="respect" href="#">Respects</a>
                         <p>12</p>
-                        <a href="#">See more</a>
+                        <a class="see-more" href="#">See more</a>
                     </div>
                 </div>
             </div>
@@ -149,10 +149,10 @@
                     example, which
                     of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
                     <div class="icons clearfix">
-                        <a href="#"><img src="images/icon_hands.png" alt=""></a>
-                        <a href="#">Respects</a>
+                        <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
+                        <a class="respect" href="#">Respects</a>
                         <p>12</p>
-                        <a href="#">See more</a>
+                        <a class="see-more" href="#">See more</a>
                     </div>
                 </div>
             </div>
@@ -174,10 +174,10 @@
                     example, which
                     of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
                     <div class="icons clearfix">
-                        <a href="#"><img src="images/icon_hands.png" alt=""></a>
-                        <a href="#">Respects</a>
+                        <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
+                        <a class="respect" href="#">Respects</a>
                         <p>12</p>
-                        <a href="#">See more</a>
+                        <a class="see-more" href="#">See more</a>
                     </div>
                 </div>
             </div>

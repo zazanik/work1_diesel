@@ -1,0 +1,41 @@
+.carusel{
+  position: relative;
+  margin: 0 35px 0 35px;
+  width: 660px;
+  height: 90px;
+  img{
+    width: 125px;
+    height: 90px;
+  }
+  .flex-nav-next{
+    display: block;
+  }
+  .flex-prev{
+    left: -20px;
+  }
+  .flex-next{
+    opacity: 1;
+    right: -20px;
+  }
+  .flex-direction-nav a.flex-next:before{
+    content: '';
+    background: url("../images/next-arrow.png") no-repeat;
+    width: 13px;
+    height: 13px;
+    margin-top: 7px;
+  }
+  .flex-prev::before{
+    content: '';
+    background: url("../images/prev-arrow.png") no-repeat;
+    width: 13px;
+    height: 13px;
+    margin-top: 7px;
+  }
+
+  .flex-direction-nav a {
+    width: 13px;
+    height: 20px;
+    margin: -14px 0 0 0;
+    top: 50%;
+  }
+}

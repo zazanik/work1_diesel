@@ -59,7 +59,7 @@ body {
   height: 3px; }
 
 .line-wt {
-  margin: 0 220px 0 15px;
+  margin: 0 220px 50px 15px;
   background-color: #dadada;
   border: none;
   height: 2px; }
@@ -404,9 +404,9 @@ body {
   margin: 20px 0 0 0; }
   .icons a {
     font-family: "Lato", sans-serif; }
-  .icons a:nth-child(1) {
+  .icons .heands {
     float: left; }
-  .icons a:nth-child(2) {
+  .icons .respect {
     float: left;
     margin: 2px 15px 0 15px;
     color: #dadbdd;
@@ -419,7 +419,7 @@ body {
     color: #b32017;
     font-size: 18px;
     font-weight: 700; }
-  .icons a:nth-child(4) {
+  .icons .see-more {
     float: right;
     position: relative;
     margin: 2px 30px 0 0;
@@ -427,7 +427,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     text-decoration: underline; }
-  .icons a:nth-child(4):after {
+  .icons .see-more:after {
     content: "";
     position: absolute;
     background: url("../images/right-arrow.png") no-repeat;
@@ -476,6 +476,39 @@ body {
 
 .nav-menu ul li a:hover::after {
   color: white; }
+
+.carusel {
+  position: relative;
+  margin: 0 35px 0 35px;
+  width: 660px;
+  height: 90px; }
+  .carusel img {
+    width: 125px;
+    height: 90px; }
+  .carusel .flex-nav-next {
+    display: block; }
+  .carusel .flex-prev {
+    left: -20px; }
+  .carusel .flex-next {
+    opacity: 1;
+    right: -20px; }
+  .carusel .flex-direction-nav a.flex-next:before {
+    content: '';
+    background: url("../images/next-arrow.png") no-repeat;
+    width: 13px;
+    height: 13px;
+    margin-top: 7px; }
+  .carusel .flex-prev::before {
+    content: '';
+    background: url("../images/prev-arrow.png") no-repeat;
+    width: 13px;
+    height: 13px;
+    margin-top: 7px; }
+  .carusel .flex-direction-nav a {
+    width: 13px;
+    height: 20px;
+    margin: -14px 0 0 0;
+    top: 50%; }
 
 .h-page {
   background-color: black; }
@@ -1059,7 +1092,7 @@ body {
   background-color: transparent; }
 
 .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post {
-  margin: 30px 0 25px 15px;
+  margin: 10px 0 25px 15px;
   color: white;
   font-family: "Lato", sans-serif; }
   .favorite-truck-list .favorite-truck-list-cont .favorite-truck-post h2 {
@@ -1120,7 +1153,7 @@ body {
   color: white; }
 
 .page-after-sign {
-  margin: 40px 0 90px 0; }
+  margin: 40px 0 60px 0; }
   .page-after-sign .side-bar {
     margin: 0 30px 0 0; }
   .page-after-sign .user-photo {
@@ -1306,6 +1339,8 @@ body {
     font-size: 13px;
     font-weight: 400;
     line-height: 18px; }
+  .autor-of-group-info .text-cor {
+    margin: 0; }
   .autor-of-group-info .text h2 {
     color: white;
     font-family: "Lato", sans-serif;
@@ -1333,12 +1368,102 @@ body {
     right: -30px; }
   .autor-of-group-info .text p {
     margin: 0; }
+  .autor-of-group-info .text-cor p {
+    margin: 0 0 20px 0; }
 
 .page-of-group .favorite-truck-list-cont .favorite-truck-post .date {
   margin-left: 30px; }
 
 .page-of-group .favorite-group-button {
   width: 190px; }
+
+.page-my-truck .my-truck-info {
+  width: 730px;
+  margin: 0 0 45px 0; }
+  .page-my-truck .my-truck-info .button-cont {
+    margin: 0 30px 0 0;
+    float: right; }
+  .page-my-truck .my-truck-info .button {
+    margin: 0 0 0 40px;
+    float: left;
+    width: 125px;
+    height: 35px;
+    background-color: #595959;
+    color: black;
+    font-family: "Lato", sans-serif;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 35px;
+    text-transform: uppercase; }
+  .page-my-truck .my-truck-info .button:hover {
+    color: white;
+    background-color: #b32017; }
+  .page-my-truck .my-truck-info .info-cont {
+    float: left;
+    margin: 25px 0 0 15px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px; }
+  .page-my-truck .my-truck-info img {
+    margin: 60px 0 0 15px;
+    float: left;
+    width: 300px;
+    height: 220px; }
+  .page-my-truck .my-truck-info div {
+    margin: 0 0 40px 0; }
+  .page-my-truck .my-truck-info a:nth-child(4) {
+    margin: 27px 0 0 0;
+    float: left;
+    text-decoration: underline;
+    text-transform: uppercase; }
+  .page-my-truck .my-truck-info a:nth-child(5) {
+    margin: 30px -20px 0 0;
+    float: right;
+    font-size: 14px; }
+  .page-my-truck .my-truck-info a:nth-child(5)::before {
+    content: "<";
+    margin: 0 5px 0 0; }
+  .page-my-truck .my-truck-info a:hover {
+    color: #b32017; }
+
+.page-my-truck .favorite-truck-list .text .text-button {
+  margin: 0 0 0 40px; }
+
+.page-my-fleet .my-truck-info h2 {
+  margin: 0 0 40px 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.page-my-fleet .my-truck-info img {
+  width: 200px;
+  height: 150px; }
+
+.page-my-fleet .info-cont div {
+  margin: 0 0 15px 0; }
+
+.page-my-fleet .my-truck-info .model, .page-my-fleet .my-truck-info .year {
+  font-size: 14px; }
+
+.page-my-fleet .my-truck-info .info-cont .back-to-list {
+  margin: 0 -160px 0 0;
+  float: right; }
+
+.page-my-fleet .simple-text {
+  margin: 0 15px 60px 15px;
+  width: 760px;
+  text-align: justify;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.page-my-fleet .favorite-truck-list-cont:last-child .long-line {
+  background-color: #dadada; }
 
 footer .sosials {
   margin: 0 0 35px 0;

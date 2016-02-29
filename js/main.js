@@ -59,3 +59,16 @@ $(document).ready(function(){
         $(this).find("~ ul").stop().slideToggle("slow");
     });
 });
+
+//carusel
+
+$(window).load(function() {
+    $('.carusel').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 120,
+        itemMargin: 5,
+        minItems: 4,
+        maxItems: 5
+    });
+});

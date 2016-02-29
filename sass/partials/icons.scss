@@ -3,10 +3,10 @@
   a{
     font-family: $mainFont;
   }
-  a:nth-child(1){
+  .heands{
     float: left;
   }
-  a:nth-child(2){
+  .respect{
     float: left;
     margin: 2px 15px 0 15px;
     color: rgb(218, 219, 221);
@@ -21,7 +21,7 @@
     font-size: 18px;
     font-weight: 700;
   }
-  a:nth-child(4){
+  .see-more{
     float: right;
     position: relative;
     margin: 2px 30px 0 0;
@@ -30,7 +30,7 @@
     font-weight: 400;
     text-decoration: underline;
   }
-  a:nth-child(4):after{
+  .see-more:after{
     content: "";
     position: absolute;
     background: url("../images/right-arrow.png") no-repeat;

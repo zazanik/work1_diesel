@@ -1,0 +1,37 @@
+.page-my-fleet{
+  .my-truck-info h2{
+    margin: 0 0 40px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .my-truck-info img{
+    width: 200px;
+    height: 150px;
+  }
+  .info-cont div{
+    margin: 0 0 15px 0;
+  }
+  .my-truck-info{
+    .model, .year{
+      font-size: 14px;
+    }
+    .info-cont .back-to-list{
+      margin: 0 -160px 0 0;
+      float: right;
+    }
+  }
+  .simple-text{
+    margin: 0 15px 60px 15px;
+    width: 760px;
+    text-align: justify;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .favorite-truck-list-cont:last-child .long-line {
+    background-color: #dadada;
+  }
+}
