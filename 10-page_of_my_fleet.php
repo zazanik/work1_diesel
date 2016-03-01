@@ -1,6 +1,7 @@
 <?php include "template/header.php"; ?>
 <?php include "template/baner-top.php"; ?>
 <?php include "template/nav-menu.php"; ?>
+
 <div class="page-my-truck page-my-fleet">
     <div class="page-after-sign">
         <div class="container">
@@ -120,8 +121,6 @@
                 <hr class="long-line">
             </div>
         </div>
-        <?php include "template/numbers.php" ?>
-        <hr class="long-line">
     </div>
 </div>
 <?php include "template/baner-bottom.php"; ?>

@@ -1,0 +1,106 @@
+.page-of-news {
+  .page-after-sign .my-truck-info .line-wt {
+    height: 1px;
+  }
+  .page-after-sign .my-truck-info .line-wt {
+    margin-bottom: 35px;
+  }
+  .page-after-sign {
+    .carusel {
+      margin: 0 35px 0 55px;
+    }
+    .favorite-truck-list-cont .favorite-truck-post {
+      margin: 10px 0 65px 15px;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      h2 {
+        display: block;
+        margin: 0 0 15px 0;
+      }
+      h2 a {
+        margin: 0 0 0 0;
+        color: $mainTextColor;
+        font-family: $mainFont;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .title-of-news {
+        text-transform: uppercase;
+      }
+      .title-cont {
+        float: none;
+      }
+      h2 a:hover {
+        color: rgb(179, 32, 23);
+      }
+      .date {
+        margin: 0 0 20px 0;
+        color: $mainTextColor;
+        font-family: $mainFont;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+      .model, .year, .text {
+        margin: 0 0 12px 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+      .text {
+        padding: 0 0 0 0;
+        margin-bottom: 0;
+        text-align: justify;
+      }
+      .text-padding {
+        padding-top: 100px;
+      }
+    }
+    .favorite-truck-list-cont .favorite-truck-post > a{
+      float: left;
+      margin: 0 5px 0 0;
+    }
+    .favorite-truck-list-cont .favorite-truck-post > a > img {
+      float: none;
+      width: 400px;
+      height: 300px;
+    }
+  }
+  .comments {
+    width: 760px;
+    .line-wt {
+      height: 4px;
+    }
+    form {
+      margin: 10px 0 0 15px;
+      position: relative;
+    }
+    form img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    form textarea {
+      width: 733px;
+      height: 60px;
+      padding: 20px 0 0 10px;
+      background-color: transparent;
+      border: 1px solid white;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 900;
+      font-variant: small-caps;
+      outline: none;
+    }
+    .icons{
+      margin: 10px 0 60px 20px;
+    }
+    .icons p{
+      margin: 0px 15px 0 0;
+    }
+  }
+}

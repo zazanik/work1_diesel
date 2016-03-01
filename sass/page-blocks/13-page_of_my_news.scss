@@ -1,0 +1,200 @@
+.page-of-my-news{
+  .page-after-sign{
+    .line-wt{
+      height: 4px;
+    }
+    .favorite-truck-list-cont{
+      float: left;
+      width: 760px;
+      .long-line{
+        margin-left: 15px;
+        background-color: #dadada;
+        height: 2px;
+      }
+    }
+    .favorite-truck-list-cont:last-child{
+      .long-line{
+        background-color: transparent;
+      }
+    }
+
+    .favorite-truck-list-cont .favorite-truck-post{
+      margin: 10px 0 25px 15px;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      h2{
+        margin: 0 0 15px 0;
+      }
+      h2 a{
+        margin: 0 0 0 30px;
+        color: $mainTextColor;
+        font-family: $mainFont;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .title-of-news{
+        text-transform: uppercase;
+      }
+      .title-cont{
+        float: left;
+      }
+      h2 a:hover{
+        color: rgb(179, 32, 23);
+      }
+      .date{
+        margin: 0 0 0 30px;
+        color: $mainTextColor;
+        font-family: $mainFont;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+      .model, .year, .text{
+        margin: 0 0 12px 30px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+      .text{
+        padding: 90px 0 0 200px;
+        margin-bottom: 0;
+        text-align: justify;
+      }
+      .text-padding{
+        padding-top: 100px;
+      }
+    }
+    .favorite-truck-list-cont .favorite-truck-post > a > img{
+      float: left;
+      width: 200px;
+      height: 150px;
+    }
+
+  }
+  .page-after-sign .my-truck-info{
+    margin-bottom: 0;
+    position: relative;
+    .user-photo a{
+      display: block;
+    }
+    .user-photo{
+      margin: 0 0 0 15px;
+    }
+    .user-photo img{
+      margin: 0 0 15px 0;
+      width: 170px;
+      height: 170px;
+    }
+    .user-nickname{
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    .user-photo .user-nickname{
+      font-size: 16px;
+    }
+    .info-cont {
+      margin-top: 0;
+      float: right;
+      position: relative;
+    }
+    .back{
+      margin: 0 0 0 0;
+      position: absolute;
+      bottom: 64px;
+      right: 30px;
+
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .back::before{
+      content: "<";
+      margin-right: 5px;
+    }
+    .back:hover{
+      color: rgb(179, 32, 23);
+    }
+
+  }
+}
+.comments{
+  width: 760px;
+  .coms{
+    margin: 0 0 30px 20px;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+  .line-wt{
+    height: 4px;
+  }
+  form{
+    margin: 10px 0 80px 15px;
+    position: relative;
+  }
+  form img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  form textarea{
+    width: 648px;
+    height: 148px;
+    padding: 20px 0 0 95px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 900;
+    font-variant: small-caps;
+    outline: none;
+  }
+  .comment{
+    margin: 0 0 0 15px;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    img{
+      margin: 0 0 0 10px;
+      float: left;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .nickname{
+      margin: 0 0 0 35px;
+      float: left;
+    }
+    .date{
+      margin: 0 0 0 190px;
+      float: left;
+    }
+    .button{
+      float: right;
+      background-color: rgb(89, 89, 89);
+      color: black;
+      border: none;
+    }
+    .button:hover{
+      color: $mainTextColor;
+      background-color: rgb(179, 32, 23);
+    }
+    .text{
+      margin: 0 0 70px 0;
+      padding: 0 0 0 85px;
+      font-size: 14px;
+      text-align: justify;
+    }
+    .line-wt{
+      margin-left: 0;
+    }
+  }
+}

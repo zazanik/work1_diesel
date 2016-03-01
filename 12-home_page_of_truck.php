@@ -1,34 +1,34 @@
 <?php include "template/header.php"; ?>
 <?php include "template/baner-top.php"; ?>
 <?php include "template/nav-menu.php"; ?>
-<div class="page-my-truck">
+<div class="page-my-truck page-my-fleet home-page-of-truck">
     <div class="page-after-sign">
         <div class="container">
             <?php include "template/side-bar.php"; ?>
-
             <div class="my-truck-info clearfix">
-                <div class="button-cont clearfix">
-                    <a class="button" href="#">Add news</a>
-                    <a class="button" href="#">Edit truck</a>
-                </div>
                 <img src="images/truck-2.png" alt="">
                 <div class="info-cont clearfix">
-                    <div>Mersedes</div>
-                    <div>Model :T-KING6*2 middle-size derrick cargo truck</div>
-                    <div>Year : 2005</div>
-                    <a href="#">All news of this truck</a>
-                    <a href="#">Back to list</a>
+                    <div class="name">Mersedes</div>
+                    <div class="model">Model :T-KING6*2 middle-size derrick cargo truck</div>
+                    <div class="year">Year : 2005</div>
+                    <a class="favorite-button" href="#">Add to Favorites</a>
+                    <a class="back-to-list" href="#">Back to list</a>
                 </div>
             </div>
+        </div>
 
-        </div>
-        <div class="container">
-            <hr class="line-wt">
-        </div>
         <?php include "template/carusel.php" ?>
     </div>
     <div class="favorite-truck-list">
         <div class="container">
+            <div class="simple-text">
+                Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit.At vero eos et accusamus
+                et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+                qui officia deserunt mollitia animi,
+            </div>
             <div class="favorite-truck-list-cont clearfix">
                 <div class="favorite-truck-post">
                     <a href="#"><img src="images/favorite_truck_list/truck-fv.png" alt=""/></a>
@@ -42,13 +42,10 @@
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati. To take a trivial
                         example, which
                         of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
-
                         <div class="icons clearfix">
                             <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
                             <a class="respect" href="#">Respects</a>
                             <p>12</p>
-                            <a class="button text-button" href="#">Edit</a>
-                            <a class="button text-button" href="#">Delete</a>
                             <a class="see-more" href="#">See more</a>
                         </div>
                     </div>
@@ -74,8 +71,6 @@
                             <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
                             <a class="respect" href="#">Respects</a>
                             <p>12</p>
-                            <a class="button text-button" href="#">Edit</a>
-                            <a class="button text-button" href="#">Delete</a>
                             <a class="see-more" href="#">See more</a>
                         </div>
                     </div>
@@ -101,8 +96,6 @@
                             <a class="heands" href="#"><img src="images/icon_hands.png" alt=""></a>
                             <a class="respect" href="#">Respects</a>
                             <p>12</p>
-                            <a class="button text-button" href="#">Edit</a>
-                            <a class="button text-button" href="#">Delete</a>
                             <a class="see-more" href="#">See more</a>
                         </div>
                     </div>

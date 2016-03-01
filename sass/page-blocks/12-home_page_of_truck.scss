@@ -1,0 +1,35 @@
+.home-page-of-truck{
+  .my-truck-info{
+    img{
+      margin-top: 0;
+      width: 300px;
+      height: 220px;
+    }
+    .info-cont{
+      margin-top: 0;
+    }
+    a:nth-child(4){
+      margin: 43px 0 0 0;
+      position: relative;
+      color: rgb(179, 32, 23);
+      text-decoration: none;
+      text-transform: none;
+    }
+    a:nth-child(4)::after{
+      content: "";
+      background: url("../images/star.png") no-repeat;
+      width: 16px;
+      height: 15px;
+      position: absolute;
+      top: 3px;
+      right: -25px;
+    }
+    .info-cont .back-to-list{
+      margin: 48px -70px 0 0;
+    }
+  }
+
+  .info-cont div{
+    margin-bottom: 35px;
+  }
+}
