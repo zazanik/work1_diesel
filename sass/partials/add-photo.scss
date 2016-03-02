@@ -1,0 +1,89 @@
+.add-photos-button {
+  width: 140px;
+  height: 35px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.add-photos-button a {
+  display: block;
+  margin: 0 0 0 20px;
+  color: $mainTextColor;
+  font-family: $mainFont;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 35px;
+  position: relative;
+}
+
+.add-photos-button a:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 20px;
+  background: transparent url("../images/white-arrow.png") no-repeat center center;
+}
+.add-photos-button .active:after {
+  background-color: $mainColor;
+}
+.photos-cont {
+  display: none;
+  margin: 20px 0 0 0;
+  .photo-cell {
+    margin: 0 55px 65px 0;
+    float: left;
+    width: 190px;
+    img {
+      width: 190px;
+      height: 140px;
+    }
+    a {
+      text-align: center;
+      display: block;
+      width: 90px;
+      height: 25px;
+      border: 1px solid #9d9b9b;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 25px;
+    }
+    a:hover {
+      background-color: rgb(89, 89, 89);
+      border-color: rgb(89, 89, 89);
+      color: black;
+    }
+    a:first-child {
+      float: left;
+    }
+    a:last-child {
+      float: right;
+    }
+  }
+  .button-cont-last {
+    float: right;
+    a {
+      margin: 0 15px 0 0;
+      text-align: center;
+      float: left;
+      width: 170px;
+      height: 40px;
+      background-color: rgb(89, 89, 89);
+
+      color: rgb(2, 2, 2);
+      font-family: $mainFont;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+    a:hover {
+      background-color: $mainColor;
+      color: $mainTextColor;
+    }
+  }
+
+}

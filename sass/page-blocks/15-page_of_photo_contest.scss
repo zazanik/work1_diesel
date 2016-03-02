@@ -1,0 +1,71 @@
+.page-of-photo-contest{
+  .side-bar{
+    margin: 55px 30px 0 0;
+  }
+  .photo-contest-text{
+    margin: 0 0 0 15px;
+    float: left;
+    width: 730px;
+  }
+  .photo-contest-text h2{
+    margin: 50px 0 30px 0;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  .photo-contest-text .text{
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .photo-contest{
+    margin: 40px 0 40px 15px;
+    float: left;
+    width: 760px;
+  }
+  .photo-contest .photo-cont{
+    margin: 0 25px 25px 0;
+    float: left;
+    img{
+      width: 220px;
+      height: 150px;
+    }
+    .button{
+      margin: 10px 0 0 10px;
+      float: left;
+      width: 70px;
+      height: 30px;
+      background-color: rgb(89, 89, 89);
+
+      color: black;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      text-transform: uppercase;
+      border: none;
+    }
+    .button:hover{
+      color: $mainTextColor;
+      background-color: $mainColor;
+    }
+    .votes{
+      margin: 18px 2px 0 0;
+      float: right;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-weight: 300;
+      font-variant: small-caps;
+    }
+    .votes span{
+      color: $mainColor;
+    }
+  }
+}

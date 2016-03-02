@@ -1,0 +1,63 @@
+.page-add-truck-edit-truck{
+  .text-cont{
+    margin: 0 0 0 15px;
+    float: left;
+    width: 760px;
+
+    h2{
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .choose-make{
+      float: left;
+    }
+    .choose-make ul{
+      margin: 0 30px 0 0;
+      width: 170px;
+      height: 35px;
+
+      list-style-type: none;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 35px;
+      position: relative;
+      cursor: pointer;
+    }
+    .choose-make ul:after{
+      content: "";
+      background: transparent url("../images/white-arrow.png") no-repeat center center;
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      width: 25px;
+      height: 20px;
+    }
+    .choose-make ul li{
+      padding: 0 0 0 15px;
+      background-color: #231f20;
+      border: 1px solid white;
+    }
+    .choose-make ul li:nth-child(n+2){
+      border-top: none;
+      display: none;
+    }
+    .text{
+      margin: 55px 0 0 0;
+      float: left;
+
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .add-photos{
+      margin: 70px 0 70px 0;
+      float: left;
+    }
+  }
+}

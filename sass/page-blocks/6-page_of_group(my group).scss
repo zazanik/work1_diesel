@@ -70,7 +70,7 @@
     a:hover {
       opacity: 1;
       color: $mainTextColor;
-      background-color: rgb(179, 32, 23);
+      background-color: $mainColor;
     }
   }
   .favorite-group-button a:last-child{
@@ -106,7 +106,7 @@
     text-decoration: underline;
   }
   .text a:hover{
-    color: rgb(179, 32, 23);
+    color: $mainColor;
   }
   .text a:after{
     content: "";

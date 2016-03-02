@@ -72,3 +72,43 @@ $(window).load(function() {
         maxItems: 5
     });
 });
+
+//add-edit-news-toggle
+
+$(document).ready(function(){
+    $(".add-photos-button").click(function() {
+        $(".photos-cont").stop().slideToggle("slow");
+
+    });
+});
+
+//active button
+
+$(document).ready(function(){
+   $(".add-photos-button a").click(function(){
+      $(".add-photos-button a").toggleClass("active");
+   });
+});
+
+
+//select
+
+$(document).ready(function(){
+    $(".choose-make").click(
+        function(){
+            $("ul li",this).find("~li").stop().slideToggle();
+        }
+    );
+});
+
+$(document).click(function(event) {
+    if (($(event.target).closest(".choose-make").length) || ($(event.target).closest(".choose-make").length)) return;
+    $("ul li",".choose-make").find("~li").stop().slideUp();
+    event.stopPropagation();
+});
+
+
+
+
+
+

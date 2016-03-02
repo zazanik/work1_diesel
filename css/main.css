@@ -510,6 +510,82 @@ body {
     margin: -14px 0 0 0;
     top: 50%; }
 
+.add-photos-button {
+  width: 140px;
+  height: 35px;
+  border: 1px solid white;
+  cursor: pointer; }
+
+.add-photos-button a {
+  display: block;
+  margin: 0 0 0 20px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 35px;
+  position: relative; }
+
+.add-photos-button a:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 20px;
+  background: transparent url("../images/white-arrow.png") no-repeat center center; }
+
+.add-photos-button .active:after {
+  background-color: #b32017; }
+
+.photos-cont {
+  display: none;
+  margin: 20px 0 0 0; }
+  .photos-cont .photo-cell {
+    margin: 0 55px 65px 0;
+    float: left;
+    width: 190px; }
+    .photos-cont .photo-cell img {
+      width: 190px;
+      height: 140px; }
+    .photos-cont .photo-cell a {
+      text-align: center;
+      display: block;
+      width: 90px;
+      height: 25px;
+      border: 1px solid #9d9b9b;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 25px; }
+    .photos-cont .photo-cell a:hover {
+      background-color: #595959;
+      border-color: #595959;
+      color: black; }
+    .photos-cont .photo-cell a:first-child {
+      float: left; }
+    .photos-cont .photo-cell a:last-child {
+      float: right; }
+  .photos-cont .button-cont-last {
+    float: right; }
+    .photos-cont .button-cont-last a {
+      margin: 0 15px 0 0;
+      text-align: center;
+      float: left;
+      width: 170px;
+      height: 40px;
+      background-color: #595959;
+      color: #020202;
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 40px;
+      text-transform: uppercase; }
+    .photos-cont .button-cont-last a:hover {
+      background-color: #b32017;
+      color: white; }
+
 .h-page {
   background-color: black; }
 
@@ -549,6 +625,7 @@ body {
   height: 24px;
   background-color: #4f454d;
   border: 1px solid #4f454d;
+  outline: none;
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 12px;
@@ -1756,6 +1833,241 @@ body {
     margin: 10px 0 60px 20px; }
   .page-of-news .comments .icons p {
     margin: 0px 15px 0 0; }
+
+.page-of-photo-contest .side-bar {
+  margin: 55px 30px 0 0; }
+
+.page-of-photo-contest .photo-contest-text {
+  margin: 0 0 0 15px;
+  float: left;
+  width: 730px; }
+
+.page-of-photo-contest .photo-contest-text h2 {
+  margin: 50px 0 30px 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase; }
+
+.page-of-photo-contest .photo-contest-text .text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: justify; }
+
+.page-of-photo-contest .photo-contest {
+  margin: 40px 0 40px 15px;
+  float: left;
+  width: 760px; }
+
+.page-of-photo-contest .photo-contest .photo-cont {
+  margin: 0 25px 25px 0;
+  float: left; }
+  .page-of-photo-contest .photo-contest .photo-cont img {
+    width: 220px;
+    height: 150px; }
+  .page-of-photo-contest .photo-contest .photo-cont .button {
+    margin: 10px 0 0 10px;
+    float: left;
+    width: 70px;
+    height: 30px;
+    background-color: #595959;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: none; }
+  .page-of-photo-contest .photo-contest .photo-cont .button:hover {
+    color: white;
+    background-color: #b32017; }
+  .page-of-photo-contest .photo-contest .photo-cont .votes {
+    margin: 18px 2px 0 0;
+    float: right;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-variant: small-caps; }
+  .page-of-photo-contest .photo-contest .photo-cont .votes span {
+    color: #b32017; }
+
+.page-favorite-users .side-bar {
+  margin: 45px 30px 0 0; }
+
+.page-favorite-users .favorite-users-contest {
+  margin: 45px 0 110px 15px;
+  float: left;
+  width: 760px; }
+
+.page-favorite-users .favorite-photo-cont {
+  margin: 0 30px 10px 0;
+  float: left;
+  width: 220px; }
+  .page-favorite-users .favorite-photo-cont img {
+    width: 220px;
+    height: 150px; }
+  .page-favorite-users .favorite-photo-cont .nickname {
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-variant: small-caps; }
+  .page-favorite-users .favorite-photo-cont .nickname a:hover {
+    color: #b32017; }
+
+.page-favorite-group .side-bar {
+  margin: 45px 30px 0 0; }
+
+.page-favorite-group .favorite-users-contest {
+  margin: 45px 0 110px 15px;
+  float: left;
+  width: 760px; }
+
+.page-favorite-group .favorite-photo-cont {
+  margin: 0 60px 25px 0;
+  float: left;
+  width: 300px; }
+  .page-favorite-group .favorite-photo-cont img {
+    width: 300px;
+    height: 200px; }
+  .page-favorite-group .favorite-photo-cont .name-of-group {
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-variant: small-caps; }
+  .page-favorite-group .favorite-photo-cont .name-of-group a:hover {
+    color: #b32017; }
+
+.page-add-edit-news {
+  margin: 0 0 50px 0; }
+  .page-add-edit-news .text-cont {
+    margin: 50px 0 40px 15px;
+    width: 760px;
+    float: left; }
+    .page-add-edit-news .text-cont h2 {
+      margin: 0 0 30px 0;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .page-add-edit-news .text-cont .text {
+      margin: 0 0 40px 0;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      text-align: justify; }
+
+.page-add-truck-edit-truck .text-cont {
+  margin: 0 0 0 15px;
+  float: left;
+  width: 760px; }
+  .page-add-truck-edit-truck .text-cont h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .page-add-truck-edit-truck .text-cont .choose-make {
+    float: left; }
+  .page-add-truck-edit-truck .text-cont .choose-make ul {
+    margin: 0 30px 0 0;
+    width: 170px;
+    height: 35px;
+    list-style-type: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    cursor: pointer; }
+  .page-add-truck-edit-truck .text-cont .choose-make ul:after {
+    content: "";
+    background: transparent url("../images/white-arrow.png") no-repeat center center;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 25px;
+    height: 20px; }
+  .page-add-truck-edit-truck .text-cont .choose-make ul li {
+    padding: 0 0 0 15px;
+    background-color: #231f20;
+    border: 1px solid white; }
+  .page-add-truck-edit-truck .text-cont .choose-make ul li:nth-child(n+2) {
+    border-top: none;
+    display: none; }
+  .page-add-truck-edit-truck .text-cont .text {
+    margin: 55px 0 0 0;
+    float: left;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+  .page-add-truck-edit-truck .text-cont .add-photos {
+    margin: 70px 0 70px 0;
+    float: left; }
+
+.page-add-edit-group .text-cont {
+  margin: 0 0 0 15px; }
+  .page-add-edit-group .text-cont h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .page-add-edit-group .text-cont form input {
+    margin: 0 0 25px 0;
+    padding: 0 0 0 2px;
+    background-color: transparent;
+    width: 490px;
+    height: 50px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #838182;
+    outline: none; }
+  .page-add-edit-group .text-cont form textarea {
+    padding: 60px 50px 0 25px;
+    background-color: transparent;
+    width: 625px;
+    height: 90px;
+    border: 1px solid white;
+    outline: none;
+    text-align: justify;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 400; }
+  .page-add-edit-group .text-cont .photos-cont {
+    float: left;
+    width: 760px; }
+  .page-add-edit-group .text-cont .textarea-cont {
+    position: relative; }
+    .page-add-edit-group .text-cont .textarea-cont h3 {
+      margin: 0;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase; }
+  .page-add-edit-group .text-cont .add-photos {
+    margin: 30px 0 50px 0; }
 
 footer .sosials {
   margin: 0 0 35px 0;

@@ -24,7 +24,7 @@
     }
     .button:hover {
       color: $mainTextColor;
-      background-color: rgb(179, 32, 23);
+      background-color: $mainColor;
     }
     .info-cont {
       float: left;
@@ -60,7 +60,7 @@
       margin: 0 5px 0 0;
     }
     a:hover {
-      color: rgb(179, 32, 23);
+      color: $mainColor;
     }
   }
   .favorite-truck-list {

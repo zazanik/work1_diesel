@@ -1,0 +1,31 @@
+.page-favorite-group{
+  .side-bar {
+    margin: 45px 30px 0 0;
+  }
+  .favorite-users-contest{
+    margin: 45px 0 110px 15px;
+    float: left;
+    width: 760px;
+  }
+  .favorite-photo-cont{
+    margin: 0 60px 25px 0;
+    float: left;
+    width: 300px;
+    img{
+      width: 300px;
+      height: 200px;
+    }
+    .name-of-group{
+      text-align: center;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-weight: 400;
+      font-variant: small-caps;
+    }
+    .name-of-group a:hover{
+      color: $mainColor;
+    }
+  }
+
+}
