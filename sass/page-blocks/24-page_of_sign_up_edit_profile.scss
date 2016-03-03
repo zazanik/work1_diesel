@@ -1,0 +1,107 @@
+.sign-up{
+  margin: 0 0 100px 0;
+  .side-bar{
+    margin: 35px 30px 0 0;
+  }
+  form{
+    margin: 35px 0 0 0;
+    float: left;
+    width: 730px;
+    text-align: right;
+    color: $mainTextColor;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  form input{
+    margin: 0 0 0 15px;
+    padding: 0 0 0 15px;
+    width: 483px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+  }
+
+  //load button
+  .left{
+    margin: 0 0 0 109px;
+    label{
+      padding: 8px 17px 0 0;
+      float: left;
+    }
+  }
+  #chose_file{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(89, 89, 89);
+    color: black;
+  }
+  #chose_file:hover{
+    color: $mainTextColor;
+    background-color: $mainColor;
+  }
+  #chose_file_input{
+    display: none;
+  }
+  //  checkbox
+  .checkbox{
+    margin: 50px 0 0 228px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .checkbox label a{
+    text-decoration: underline;
+  }
+  .checkbox label a:hover{
+    color: $mainColor;
+  }
+
+
+  input[type="checkbox"] {
+    opacity: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border: 1px solid white;
+    top: 0;
+    position: relative;
+  }
+
+  input[type="checkbox"] + label {
+    min-height: 20px;
+    display: inline-block;
+    margin-left: -20px;
+    padding: 0 0 0 30px;
+    background: url('../images/checkbox0.png') no-repeat 0 0;
+  }
+
+  input[type="checkbox"]:checked + label {
+    background: url('../images/checkbox1.png') no-repeat 0 0;
+  }
+
+// submit
+  .right{
+    float: right;
+  }
+  .right .button{
+    margin: 28px 0 0 0;
+    padding: 0;
+    width: 170px;
+    height: 35px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+  .right .button:hover{
+    background-color: $mainColor;
+    border: none;
+  }
+}

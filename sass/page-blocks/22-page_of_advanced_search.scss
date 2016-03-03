@@ -1,0 +1,58 @@
+.page-of-advanced-search{
+  .text-cont{
+    margin: 0 0 50px 0;
+    .choose-make ul{
+      margin: 0;
+      width: 190px;
+      height: 30px;
+    }
+    .choose-make ul li{
+      font-size: 15px;
+      line-height: 30px;
+    }
+    .choose-make ul:after{
+      top: 6px;
+    }
+    .choose-make{
+      margin: 0 0 20px 0;
+    }
+    .choose-make:first-child{
+      z-index: 11;
+    }
+    h2{
+      margin: 30px 0 40px 0;
+    }
+    .z-index-9{
+      z-index: 9;
+    }
+    h3{
+      margin: 0 0 15px 0;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      font-size: 15px;
+      font-weight: 400;
+      clear: both;
+    }
+    .text{
+      margin: 20px 0 120px 0;
+      text-align: justify;
+    }
+    .button{
+      float: right;
+      width: 170px;
+      height: 40px;
+      border: none;
+      background-color: rgb(89, 89, 89);
+
+      color: black;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+    .button:hover{
+      color: $mainTextColor;
+      background-color: $mainColor;
+    }
+  }
+}

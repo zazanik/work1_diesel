@@ -1,6 +1,6 @@
-
-    <?php include "template/header.php" ?>
-    <!--truck-->
+<?php include "template/header.php" ?>
+<!--truck-->
+<div class="main-page">
     <div class="container">
         <div class="truck">
 
@@ -38,7 +38,6 @@
                     </li>
                 </ul>
             </div>
-
 
 
             <div class="truck-cont">
@@ -185,7 +184,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
                 mollit anim id est laborum.
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -205,5 +205,6 @@
             <div class="last-logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
         </div>
     </div>
+</div>
 
-    <?php include "template/footer.php" ?>
+<?php include "template/footer.php" ?>

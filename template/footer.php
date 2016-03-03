@@ -28,8 +28,8 @@
                 <form action="#">
                     <h3>Sign in</h3>
                     <div class="line"></div>
-                    <input type="email" placeholder="Email"/>
-                    <input type="password" placeholder="Пароль"/>
+                    <input required type="email" placeholder="Email"/>
+                    <input required type="password" placeholder="Password"/>
                     <div class="clearfix">
                         <a class="sign-up" href="#">Sign up</a>
                         <a class="forgot-password" href="#" id="forgotPass">forgot password</a>
@@ -48,7 +48,7 @@
                 <form action="#">
                     <h3>FORGOT PASSWORD</h3>
                     <div class="line"></div>
-                    <input type="email" placeholder="Email"/>
+                    <input required type="email" placeholder="Email"/>
                     <input class="button" type="submit" value="Send"/>
                 </form>
             </div>

@@ -107,6 +107,50 @@ $(document).click(function(event) {
     event.stopPropagation();
 });
 
+//file load
+
+$(function (){
+    if($('#chose_file').length)
+    {
+        $('#chose_file').click(function(){
+            $('#chose_file_input').click();
+            return(false);
+        });
+
+        $('#chose_file_input').change(function(){
+            $('#chose_file_text').html($(this).val());
+        }).change();
+    }
+});
+
+// checkbox
+$(function (){
+    if($('#add_email').length)
+    {
+        $('#add_email').click(function(){
+            $('#add_email_checkbox').click();
+            if($('#add_email_checkbox:checked').length)
+            {
+                $(this).addClass('add_email_checked');
+            }
+            else
+            {
+                $('.add_email_checked').removeClass('add_email_checked');
+            }
+            return(false);
+        });
+
+
+        if($('#add_email_checkbox:checked').length)
+        {
+            $('#add_email').addClass('add_email_checked');
+        }
+        else
+        {
+            $('.add_email_checked').removeClass('add_email_checked');
+        }
+    }
+});
 
 
 

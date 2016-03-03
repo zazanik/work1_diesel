@@ -1,0 +1,89 @@
+.contact-us-feedback{
+  color: $mainTextColor;
+  font-family: $mainFont;
+  font-size: 16px;
+  .contact-cont{
+    margin: 0 0 0 15px;
+    width: 730px;
+  }
+  .side-bar{
+    margin: 50px 30px 0 0;
+  }
+  h2{
+    margin: 40px 0 30px 0;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .text{
+    margin: 0 0 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .text-cont{
+    margin: 0 0 110px 0;
+  }
+  a:hover{
+    color: $mainColor;
+  }
+  .text-cont .first-town{
+    float: left;
+  }
+  .text-cont .second-town{
+    float: right;
+  }
+  h3{
+    margin: 0 0 35px 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  form{
+    margin: 0 0 100px 0;
+  }
+  form .form-cont{
+    float: left;
+    width: 340px;
+  }
+
+  form input{
+    margin: 0 0 5px 0;
+    padding: 0 0 0 15px;
+    width: 340px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid $mainTextColor;
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase;
+  }
+  form textarea{
+    margin: 0 0 0 25px;
+    padding: 15px 0 0 20px;
+    float: left;
+    width: 318px;
+    height: 104px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid $mainTextColor;
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase;
+  }
+  form .button{
+    margin: 5px 25px 0 0;
+    padding: 0;
+    float: right;
+    width: 95px;
+    height: 35px;
+    border: 1px solid white;
+  }
+  form .button:hover{
+    color: $mainTextColor;
+    background-color: $mainColor;
+    border-color: $mainColor;
+  }
+
+}

@@ -511,6 +511,7 @@ body {
     top: 50%; }
 
 .add-photos-button {
+  margin: 20px 0 20px 20px;
   width: 140px;
   height: 35px;
   border: 1px solid white;
@@ -539,8 +540,9 @@ body {
   background-color: #b32017; }
 
 .photos-cont {
+  margin: 20px 0 0 0;
   display: none;
-  margin: 20px 0 0 0; }
+  width: 760px; }
   .photos-cont .photo-cell {
     margin: 0 55px 65px 0;
     float: left;
@@ -567,24 +569,28 @@ body {
       float: left; }
     .photos-cont .photo-cell a:last-child {
       float: right; }
-  .photos-cont .button-cont-last {
-    float: right; }
-    .photos-cont .button-cont-last a {
-      margin: 0 15px 0 0;
-      text-align: center;
-      float: left;
-      width: 170px;
-      height: 40px;
-      background-color: #595959;
-      color: #020202;
-      font-family: "Lato", sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 40px;
-      text-transform: uppercase; }
-    .photos-cont .button-cont-last a:hover {
-      background-color: #b32017;
-      color: white; }
+
+.button-cont-last {
+  margin: 0 65px 0 0;
+  float: right; }
+  .button-cont-last a {
+    margin: 0 15px 0 0;
+    text-align: center;
+    float: left;
+    width: 170px;
+    height: 40px;
+    background-color: #595959;
+    color: #020202;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase; }
+  .button-cont-last a:last-child {
+    margin: 0; }
+  .button-cont-last a:hover {
+    background-color: #b32017;
+    color: white; }
 
 .h-page {
   background-color: black; }
@@ -706,7 +712,8 @@ body {
 
 .truck .button:hover {
   background-color: #595959;
-  color: white; }
+  color: black;
+  border-color: transparent; }
 
 .truck .word-left {
   position: absolute;
@@ -725,7 +732,7 @@ body {
   color: #b32017; }
 
 .latest-trucks h2 {
-  margin: 35px 0 20px 0;
+  margin: 35px 0 20px 15px;
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 24px;
@@ -810,6 +817,7 @@ body {
   max-width: 230px; }
 
 .make-truck h2 {
+  margin-left: 15px;
   display: inline-block;
   color: white;
   font-family: "Lato", sans-serif;
@@ -931,6 +939,7 @@ body {
   align-self: auto; }
 
 .popular-group h2 {
+  margin-left: 15px;
   display: inline-block;
   color: white;
   font-family: "Lato", sans-serif;
@@ -1066,7 +1075,7 @@ body {
   align-self: auto; }
 
 .about-diesel h2 {
-  margin: 110px 0 30px 0;
+  margin: 110px 0 30px 15px;
   text-align: center;
   color: #e8ecef;
   font-family: "Lato", sans-serif;
@@ -1076,12 +1085,13 @@ body {
   text-transform: uppercase; }
 
 .about-diesel .text {
-  margin: 0 0 100px 0;
+  margin: 0 15px 100px 15px;
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 22px; }
+  line-height: 22px;
+  text-align: justify; }
 
 .about-diesel .join-line {
   height: 50px;
@@ -1951,7 +1961,7 @@ body {
   margin: 0 0 50px 0; }
   .page-add-edit-news .text-cont {
     margin: 50px 0 40px 15px;
-    width: 760px;
+    width: 730px;
     float: left; }
     .page-add-edit-news .text-cont h2 {
       margin: 0 0 30px 0;
@@ -1967,11 +1977,13 @@ body {
       font-size: 17px;
       font-weight: 400;
       text-align: justify; }
+  .page-add-edit-news .side-bar {
+    margin: 50px 30px 0 0; }
 
 .page-add-truck-edit-truck .text-cont {
   margin: 0 0 0 15px;
   float: left;
-  width: 760px; }
+  width: 730px; }
   .page-add-truck-edit-truck .text-cont h2 {
     color: white;
     font-family: "Lato", sans-serif;
@@ -1980,6 +1992,9 @@ body {
     text-transform: uppercase; }
   .page-add-truck-edit-truck .text-cont .choose-make {
     float: left; }
+  .page-add-truck-edit-truck .text-cont .choose-make {
+    position: relative;
+    z-index: 10; }
   .page-add-truck-edit-truck .text-cont .choose-make ul {
     margin: 0 30px 0 0;
     width: 170px;
@@ -2018,7 +2033,11 @@ body {
     margin: 70px 0 70px 0;
     float: left; }
 
+.page-add-truck-edit-truck .side-bar {
+  margin: 50px 30px 0 0; }
+
 .page-add-edit-group .text-cont {
+  width: 730px;
   margin: 0 0 0 15px; }
   .page-add-edit-group .text-cont h2 {
     color: white;
@@ -2068,6 +2087,234 @@ body {
       text-transform: uppercase; }
   .page-add-edit-group .text-cont .add-photos {
     margin: 30px 0 50px 0; }
+
+.page-add-edit-group .side-bar {
+  margin: 50px 30px 0 0; }
+
+.page-add-fleet-edit-fleet .text-cont .add-photos {
+  margin-top: 0;
+  width: 760px; }
+
+.page-add-fleet-edit-fleet .text-cont .choose-make ul {
+  margin: 0 0 20px 0; }
+
+.page-add-fleet-edit-fleet .text-cont .choose-make ul li {
+  font-size: 16px;
+  line-height: 33px; }
+
+.page-add-fleet-edit-fleet .text-cont .z-index-9 {
+  z-index: 9; }
+
+.page-add-fleet-edit-fleet .text-cont .garage-cont {
+  float: left;
+  color: white;
+  font-family: "Lato", sans-serif; }
+  .page-add-fleet-edit-fleet .text-cont .garage-cont h2 {
+    margin: 15px 0 15px 0;
+    font-size: 16px;
+    font-weight: 400; }
+  .page-add-fleet-edit-fleet .text-cont .garage-cont .text {
+    margin: 0 0 20px 0;
+    float: none;
+    font-size: 14px;
+    font-weight: 400; }
+
+.page-of-advanced-search .text-cont {
+  margin: 0 0 50px 0; }
+  .page-of-advanced-search .text-cont .choose-make ul {
+    margin: 0;
+    width: 190px;
+    height: 30px; }
+  .page-of-advanced-search .text-cont .choose-make ul li {
+    font-size: 15px;
+    line-height: 30px; }
+  .page-of-advanced-search .text-cont .choose-make ul:after {
+    top: 6px; }
+  .page-of-advanced-search .text-cont .choose-make {
+    margin: 0 0 20px 0; }
+  .page-of-advanced-search .text-cont .choose-make:first-child {
+    z-index: 11; }
+  .page-of-advanced-search .text-cont h2 {
+    margin: 30px 0 40px 0; }
+  .page-of-advanced-search .text-cont .z-index-9 {
+    z-index: 9; }
+  .page-of-advanced-search .text-cont h3 {
+    margin: 0 0 15px 0;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    clear: both; }
+  .page-of-advanced-search .text-cont .text {
+    margin: 20px 0 120px 0;
+    text-align: justify; }
+  .page-of-advanced-search .text-cont .button {
+    float: right;
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: #595959;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase; }
+  .page-of-advanced-search .text-cont .button:hover {
+    color: white;
+    background-color: #b32017; }
+
+.contact-us-feedback {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px; }
+  .contact-us-feedback .contact-cont {
+    margin: 0 0 0 15px;
+    width: 730px; }
+  .contact-us-feedback .side-bar {
+    margin: 50px 30px 0 0; }
+  .contact-us-feedback h2 {
+    margin: 40px 0 30px 0;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .contact-us-feedback .text {
+    margin: 0 0 80px 0;
+    font-size: 16px;
+    font-weight: 400; }
+  .contact-us-feedback .text-cont {
+    margin: 0 0 110px 0; }
+  .contact-us-feedback a:hover {
+    color: #b32017; }
+  .contact-us-feedback .text-cont .first-town {
+    float: left; }
+  .contact-us-feedback .text-cont .second-town {
+    float: right; }
+  .contact-us-feedback h3 {
+    margin: 0 0 35px 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center; }
+  .contact-us-feedback form {
+    margin: 0 0 100px 0; }
+  .contact-us-feedback form .form-cont {
+    float: left;
+    width: 340px; }
+  .contact-us-feedback form input {
+    margin: 0 0 5px 0;
+    padding: 0 0 0 15px;
+    width: 340px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase; }
+  .contact-us-feedback form textarea {
+    margin: 0 0 0 25px;
+    padding: 15px 0 0 20px;
+    float: left;
+    width: 318px;
+    height: 104px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase; }
+  .contact-us-feedback form .button {
+    margin: 5px 25px 0 0;
+    padding: 0;
+    float: right;
+    width: 95px;
+    height: 35px;
+    border: 1px solid white; }
+  .contact-us-feedback form .button:hover {
+    color: white;
+    background-color: #b32017;
+    border-color: #b32017; }
+
+.sign-up {
+  margin: 0 0 100px 0; }
+  .sign-up .side-bar {
+    margin: 35px 30px 0 0; }
+  .sign-up form {
+    margin: 35px 0 0 0;
+    float: left;
+    width: 730px;
+    text-align: right;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400; }
+  .sign-up form input {
+    margin: 0 0 0 15px;
+    padding: 0 0 0 15px;
+    width: 483px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none; }
+  .sign-up .left {
+    margin: 0 0 0 109px; }
+    .sign-up .left label {
+      padding: 8px 17px 0 0;
+      float: left; }
+  .sign-up #chose_file {
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #595959;
+    color: black; }
+  .sign-up #chose_file:hover {
+    color: white;
+    background-color: #b32017; }
+  .sign-up #chose_file_input {
+    display: none; }
+  .sign-up .checkbox {
+    margin: 50px 0 0 228px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400; }
+  .sign-up .checkbox label a {
+    text-decoration: underline; }
+  .sign-up .checkbox label a:hover {
+    color: #b32017; }
+  .sign-up input[type="checkbox"] {
+    opacity: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border: 1px solid white;
+    top: 0;
+    position: relative; }
+  .sign-up input[type="checkbox"] + label {
+    min-height: 20px;
+    display: inline-block;
+    margin-left: -20px;
+    padding: 0 0 0 30px;
+    background: url("../images/checkbox0.png") no-repeat 0 0; }
+  .sign-up input[type="checkbox"]:checked + label {
+    background: url("../images/checkbox1.png") no-repeat 0 0; }
+  .sign-up .right {
+    float: right; }
+  .sign-up .right .button {
+    margin: 28px 0 0 0;
+    padding: 0;
+    width: 170px;
+    height: 35px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px; }
+  .sign-up .right .button:hover {
+    background-color: #b32017;
+    border: none; }
 
 footer .sosials {
   margin: 0 0 35px 0;

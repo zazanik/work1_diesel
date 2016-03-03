@@ -14,60 +14,62 @@
 
 
 
-
             <div class="add-photos clearfix">
                 <div class="add-photos-button">
                     <a>add photos</a>
                 </div>
                 <div class="photos-cont clearfix">
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
+                    <div class="clearfix">
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
+                        </div>
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
+                        </div>
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
+                        </div>
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
+                        </div>
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
+                        </div>
+                        <div class="photo-cell">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
-                        </div>
-                    </div>
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
-                        </div>
-                    </div>
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
-                        </div>
-                    </div>
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
-                        </div>
-                    </div>
-                    <div class="photo-cell">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
-                        </div>
-                    </div>
-
                     <div class="button-cont-last">
                         <a href="#">Cancel</a>
                         <a href="#">Save</a>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>

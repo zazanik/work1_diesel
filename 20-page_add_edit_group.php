@@ -14,27 +14,26 @@
                     <textarea placeholder="Add comment...">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsumdolor sit amet conse ctetur adipisicing elit.</textarea>
                 </div>
             </form>
-
             <div class="add-photos clearfix">
                 <div class="add-photos-button">
                     <a>add photos</a>
                 </div>
                 <div class="photos-cont clearfix">
-                    <div class="photo-cell clearfix">
-                        <img src="images/truck-1.png" alt="">
-                        <div class="button-cont clearfix">
-                            <a href="#">main</a>
-                            <a href="#">delete</a>
+                    <div class="clearfix">
+                        <div class="photo-cell clearfix">
+                            <img src="images/truck-1.png" alt="">
+                            <div class="button-cont clearfix">
+                                <a href="#">main</a>
+                                <a href="#">delete</a>
+                            </div>
                         </div>
                     </div>
-
-                        <div class="button-cont-last clearfix">
-                            <a href="#">Cancel</a>
-                            <a href="#">Save</a>
-                        </div>
+                    <div class="button-cont-last clearfix">
+                        <a href="#">Cancel</a>
+                        <a href="#">Save</a>
+                    </div>
                 </div>
             </div>
-
         </div>
 
     </div>

@@ -1,0 +1,35 @@
+.page-add-fleet-edit-fleet{
+  .text-cont .add-photos{
+    margin-top: 0;
+    width: 760px;
+  }
+
+  .text-cont{
+    .choose-make ul{
+      margin: 0 0 20px 0;
+    }
+    .choose-make ul li{
+      font-size: 16px;
+      line-height: 33px;
+    }
+    .z-index-9{
+      z-index: 9;
+    }
+    .garage-cont{
+      float: left;
+      color: $mainTextColor;
+      font-family: $mainFont;
+      h2{
+        margin: 15px 0 15px 0;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .text{
+        margin: 0 0 20px 0;
+        float: none;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+}
